@@ -1,0 +1,10 @@
+{
+    "require": {
+        "laravel/homestead": "^2.1",
+        "phpmd/phpmd": "^2.2",
+        "squizlabs/php_codesniffer": "^2.3",
+        "phpunit/phpunit": "^4.7",
+        "laravel/envoy": "^1.0",
+        "fabpot/php-cs-fixer": "^1.9"
+    }
+}
