@@ -82,7 +82,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias zshconfig="subl ~/.zshrc"
-alias envconfig="subl ~/Projects/config/env.sh"
+alias zshconfig="nano ~/.zshrc && source ~/.zshrc"
+alias zshreload="source ~/.zshrc"
+alias gfp="git fetch && git pull"
 
 export PATH=~/bin:~/.composer/vendor/bin/:$PATH
