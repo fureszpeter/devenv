@@ -1,0 +1,6 @@
+[user]
+	name = Furesz Peter
+	email = fureszpeter@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = nano
