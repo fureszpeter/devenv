@@ -85,5 +85,6 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="nano ~/.zshrc && source ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 alias gfp="git fetch && git pull"
+alias xdebug="export PHP_IDE_CONFIG=\"serverName=insight.app\" && XDEBUG_CONFIG=\"remote_host=192.168.10.1 idekey=PHPSTORM remote_enable=1 remote_connect_back=1\""
 
 export PATH=~/bin:~/.composer/vendor/bin/:$PATH
