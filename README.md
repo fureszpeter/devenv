@@ -8,7 +8,7 @@ git init
 
 From here, we can add the GitHub or GitLab repo as the origin of this repo:
 
-```git remote add origin http://git_lab_ip/your_gitlab_user/repo_name.git```
+```git remote add origin https://github.com/fureszpeter/devenv.git```
 
 After this point, we will need to do something a bit different if we already have files on this machine that may come into conflict with what is in our repo. For instance, a ~/.bashrc file is usually included by default for each user.
 
