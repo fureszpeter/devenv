@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git composer colored-man colorize github vagrant brew osx zsh-syntax-highlighting)
+plugins=(git composer laravel5 colored-man colorize github vagrant brew osx zsh-syntax-highlighting)
 
 # User configuration
 
@@ -89,5 +89,6 @@ alias xdebug="export PHP_IDE_CONFIG=\"serverName=insight.app\" && XDEBUG_CONFIG=
 alias csf="php-cs-fixer"
 alias cs="phpcs --standard=PSR2 --colors --report=checkstyle"
 alias hssh="homestead ssh"
+alias artisan="php artisan"
 
 export PATH=~/bin:~/.composer/vendor/bin/:$PATH
