@@ -1,3 +1,5 @@
 .idea
 _ide_helper.php
+tools/
+.DS_Store
 
