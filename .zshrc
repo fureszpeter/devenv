@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git composer laravel5 colored-man colorize github vagrant brew osx zsh-syntax-highlighting)
+plugins=(git composer laravel5 colored-man colorize github vagrant brew osx zsh-syntax-highlighting symfony2)
 
 # User configuration
 
@@ -85,6 +85,8 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="nano ~/.zshrc && source ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 alias gfp="git fetch && git pull"
+alias gcf="git diff --name-status master | awk '{print \$2;}'"
+
 alias xdebug="export PHP_IDE_CONFIG=\"serverName=homestead.app\" && XDEBUG_CONFIG=\"remote_host=192.168.10.1 idekey=PHPSTORM remote_enable=1 remote_connect_back=1\""
 alias csf="php-cs-fixer fix -vv --dry-run --config-file=$HOME/.php_cs"
 alias csfy="php-cs-fixer fix -vv --config-file=$HOME/.php_cs"
@@ -92,5 +94,5 @@ alias csfy="php-cs-fixer fix -vv --config-file=$HOME/.php_cs"
 alias cs="phpcs --standard=PSR2 --colors --report=checkstyle"
 alias hssh="homestead ssh"
 alias artisan="php artisan"
-
+alias dt="vendor/bin/doctrine"
 export PATH=~/bin:~/.composer/vendor/bin/:$PATH
